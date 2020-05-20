@@ -1,0 +1,150 @@
+.hidden-rtl,
+.hidden {
+  display: none;
+}
+.projects {
+  padding: 100px 0 0 0px ;
+  max-width: 1200px;
+  @media screen and (max-width: 768px) {
+    padding: 40px 0;
+  }
+}
+.title {
+  text-align: center;
+  margin: 0 auto 130px auto;
+  position: relative;
+  @media screen and (max-width: 768px) {
+    margin: 20px 0;
+  }
+  &__line {
+    width: 100px;
+    height: 1px;
+    background-color: $color-blue;
+    margin: 0 auto 30px auto;
+  }
+}
+
+.project-block {
+  display: flex;
+  position: relative;
+}
+.image {
+  max-width: 100%;
+
+  &__bg {
+      width: 585px;
+      height: 470px;
+      background-color: $color-blue-light;
+      position: absolute;
+      left: -215px;
+      top: -70px;
+      z-index: -10;
+    }
+  &--responsive {
+      display: none;
+    }
+  }
+
+p {
+    font-family: $open-sans;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 100%;
+}
+
+.info {
+    flex-grow: 1;
+    margin: 60px 0 0 70px;
+    max-width: 100%;
+    &--rtl{
+      margin: 60px 30px 0 0;
+    }
+    &__name {
+      font-size: 22px;
+      text-transform: uppercase;
+  }
+    &__title {
+      margin: 10px 0;
+  }
+    &__details {
+      font-size: 14px;
+      color: $color-blue;
+      font-family: $gotham-book;
+      border: 1px solid $color-blue;
+      padding: 15px 40px;
+      text-transform: uppercase;
+      background-color: transparent;
+      margin: 35px 0 60px 0;
+      cursor: pointer;
+
+      &:hover,
+      &:focus {
+        background-color: $color-blue;
+        color: white;
+      }
+    }
+    &__localion {
+      font-family: $open-sans;
+      font-size: 18px;
+      font-style: italic;
+      
+    }
+}
+
+.fas {
+  margin: 0 10px 0 0;
+}
+.project-block--rtl {
+  position: relative;
+  margin: 210px 0 140px 0 !important;
+
+.image {
+    margin-left: 70px;
+    position: relative;
+    &__bg--rtl {
+      position: absolute;
+      right: -600px;
+      top: -70px;
+      z-index: -10;
+      overflow: hidden;
+    }
+  }
+}
+@media screen and (max-width: 1440px) {
+  .image__bg--rtl,
+  .image__bg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .project-block,
+  .project-block--rtl {
+    display: block;
+    width: 90%;
+    margin: 0 auto !important;
+    text-align: left;
+  }
+  .title {
+    padding: 0;
+    margin: 0 auto 20px 0;
+  }
+  .info {
+    margin: 30px auto !important;
+  }
+  .image {
+    display: block;
+    margin: 0 auto !important;
+    &__photo {
+      width: 90%;
+    }
+    &--responsive {
+      display: block !important;
+    }
+    &__bg--rtl,
+    &__bg,
+    &--rtl {
+      display: none !important;
+    }
+  }
+}

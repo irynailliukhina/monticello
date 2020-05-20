@@ -1,0 +1,38 @@
+.footer {
+  background-image: url(../images/footer/bg.png);
+  background-size: cover;
+  position: relative;
+  padding: 200px 0;
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 770px;
+    margin: 0 auto;
+    align-items: center;
+    &__icons{
+      margin: 0 ;
+    }  
+  }
+  &-block {
+    max-width: 770px;
+    margin: 40px auto 0 auto;
+    &__item {
+      display: inline-block;  
+      color: white;
+      font-size: 14px;
+      font-family: $gotham-book;
+      &--space {
+        margin: 0 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer{
+    padding: 20px;
+    margin: auto;
+    &-nav__logo{
+      margin: 0 auto;
+    }
+  }
+}

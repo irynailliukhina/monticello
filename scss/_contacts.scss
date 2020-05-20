@@ -1,0 +1,102 @@
+.contact{
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  &-title {
+    text-align: center;
+    position: relative;
+    margin: 0px 0 30px 0;
+    font-family: $gotham;
+  }
+  &-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+}
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    &__adress,
+    &__phone,
+    &__email,
+    &__time {
+      margin: 20px 0;
+      font-size: 18px;
+      font-family: $gotham-book;
+      i {
+        color: $color-icon;
+        margin-right: 10px;
+      }
+    }
+}
+.contact-wrapper{
+  position: absolute;
+  background-image: url(../images/contact/bg.png);
+  background-size: cover;
+  bottom: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 60px;
+  z-index: 10;
+
+  @media screen and (max-width: 768px) {
+    position: static;
+    top: 0px;
+    left: 0;
+    transform: translateX(0%);
+  }
+
+  
+  }
+.form {
+    display: flex;
+    flex-direction: column;
+}
+#name,
+#email {
+    width: 310px;
+    font-size: 18px;
+    font-family: $gotham-book;
+    color: $color-blue;
+    height: 50px;
+    flex-grow: 1;
+    border: none;
+    border-bottom: 1px solid $color-blue;
+    @media screen and (max-width: 768px) {
+    width: 100%;
+    }
+}
+#name::placeholder,
+#email::placeholder {
+    opacity: 0.5;
+}
+#submit {
+    font-size: 14px;
+    font-family: $gotham-book;
+    border: 1px solid $color-blue;
+    padding: 15px 40px;
+    width: 140px;
+    text-transform: uppercase;
+    background-color: transparent;
+    margin: 35px 0 60px 0;
+    cursor: pointer;
+    align-self: flex-end;
+
+    &:hover,
+    &:focus {
+        background-color: $color-blue;
+        color: white;
+      }
+    }
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    display: block;
+    flex-direction: column;
+  }
+  #submit {
+    align-self: start !important;
+  }
+}

@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'GothamBook';
+	src: url('../fonts/GothamBook/GothamBook.eot');
+	src: local('GothamBook'), url('../fonts/GothamBook/GothamBook.woff') format('woff'), url('../fonts/GothamBook/GothamBook.ttf') format('truetype');
+};
+@font-face {
+	font-family: 'gothambold1';
+	src: url('../fonts/gothambold/gothambold1.eot');
+	src: local('gothambold1'), url('../fonts/gothambold/gothambold1.woff') format('woff'), url('../fonts/gothambold/gothambold1.ttf') format('truetype');
+};
+@font-face{
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham/Gotham\ Medium\ Regular.ttf') format('truetype'),
+    url('../fonts/Gotham/gotham-medium-webfont.woff') format('woff'),
+    url('../fonts/Gotham/gotham-medium-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+$gotham-book: 'GothamBook';
+$gotham-bold: 'gothambold1', sans-serif;
+$gotham: 'Gotham', sans-serif;
+$open-sans:'Open Sans', sans-serif;
+
+$space: 15px;
+
+$color-blue: #2c4058;
+$color-blue-light:#55b7ff;
+$color-icon: #7e5aff;

@@ -1,0 +1,94 @@
+.gallery-title{
+    text-align: center;
+    position: relative;
+    margin: 140px 0 100px 0;
+}
+.gallery-block{
+    display: flex;
+    align-items: center;
+    &__img{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        &:hover .gallery-block__img--hover {
+            opacity: 0.7;
+            transition-duration: 0.3s;
+        }
+        @media screen and (max-width:1200px){
+            max-width: 100% ;
+            max-height: 100%;
+        }
+        @media screen and (max-width:594px){
+            display: none;
+        }
+        &--big{
+            margin: 0 auto;
+            
+        }
+        &--small{
+            position: relative;
+            &:hover .gallery-block__img--hover {
+                opacity: 0.7;
+                transition-duration: 0.3s;
+            }
+        }
+        &--hover{
+            z-index: 10;
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translateX(-50%);
+            fill: white;
+            opacity: 0;
+        }       
+        &--margin{
+            max-width: 100%;
+            max-height: 100%;
+            margin: 5px;
+            cursor: pointer;
+            border: 1px solid transparent;
+            position: relative;
+                &:hover{
+                    border: 1px solid $color-blue;
+                    box-sizing: border-box;
+                    position: relative;
+            }
+        
+    }
+}
+    &__small{
+        display: flex;
+        flex-wrap: wrap ;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.gallery-btn{
+    display: flex;
+    font-size: 14px;
+    color: $color-blue;
+    font-family: $gotham-book;
+    border: 1px solid $color-blue;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    background-color: transparent;
+    margin: 35px auto 140px auto;
+    cursor: pointer;
+    &:hover, &:focus{
+        background-color: $color-blue;
+        color: white;
+    }
+}
+@media screen and (max-width:1200px){
+    .gallery-block{
+        flex-direction: column;
+        &__img{
+            width: auto;
+        }
+    }
+}
