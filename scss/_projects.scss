@@ -97,17 +97,16 @@ p {
 .project-block--rtl {
   position: relative;
   margin: 210px 0 140px 0 !important;
-
-.image {
-    margin-left: 70px;
-    position: relative;
-    &__bg--rtl {
-      position: absolute;
-      right: -600px;
-      top: -70px;
-      z-index: -10;
-      overflow: hidden;
-    }
+}
+.image--rtl {
+  margin-left: 70px;
+  position: relative;
+  &__bg--rtl {
+    position: absolute;
+    right: -600px;
+    top: -70px;
+    z-index: -10;
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 1440px) {

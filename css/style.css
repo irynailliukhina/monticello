@@ -626,13 +626,13 @@ p {
 }
 
 /* line 101, ../Programming/js/exam/scss/_projects.scss */
-.project-block--rtl .image {
+.image--rtl {
   margin-left: 70px;
   position: relative;
 }
 
 /* line 104, ../Programming/js/exam/scss/_projects.scss */
-.project-block--rtl .image__bg--rtl {
+.image--rtl__bg--rtl {
   position: absolute;
   right: -600px;
   top: -70px;
@@ -641,7 +641,7 @@ p {
 }
 
 @media screen and (max-width: 1440px) {
-  /* line 114, ../Programming/js/exam/scss/_projects.scss */
+  /* line 113, ../Programming/js/exam/scss/_projects.scss */
   .image__bg--rtl,
   .image__bg {
     display: none;
@@ -649,7 +649,7 @@ p {
 }
 
 @media screen and (max-width: 1160px) {
-  /* line 121, ../Programming/js/exam/scss/_projects.scss */
+  /* line 120, ../Programming/js/exam/scss/_projects.scss */
   .project-block,
   .project-block--rtl {
     display: block;
@@ -657,29 +657,29 @@ p {
     margin: 0 auto !important;
     text-align: left;
   }
-  /* line 128, ../Programming/js/exam/scss/_projects.scss */
+  /* line 127, ../Programming/js/exam/scss/_projects.scss */
   .title {
     padding: 0;
     margin: 0 auto 20px 0;
   }
-  /* line 132, ../Programming/js/exam/scss/_projects.scss */
+  /* line 131, ../Programming/js/exam/scss/_projects.scss */
   .info {
     margin: 30px auto !important;
   }
-  /* line 135, ../Programming/js/exam/scss/_projects.scss */
+  /* line 134, ../Programming/js/exam/scss/_projects.scss */
   .image {
     display: block;
     margin: 0 auto !important;
   }
-  /* line 138, ../Programming/js/exam/scss/_projects.scss */
+  /* line 137, ../Programming/js/exam/scss/_projects.scss */
   .image__photo {
     width: 90%;
   }
-  /* line 141, ../Programming/js/exam/scss/_projects.scss */
+  /* line 140, ../Programming/js/exam/scss/_projects.scss */
   .image--responsive {
     display: block !important;
   }
-  /* line 144, ../Programming/js/exam/scss/_projects.scss */
+  /* line 143, ../Programming/js/exam/scss/_projects.scss */
   .image__bg--rtl, .image__bg, .image--rtl {
     display: none !important;
   }
