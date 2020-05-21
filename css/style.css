@@ -431,16 +431,17 @@ a:hover {
   height: 42px;
   display: none;
   position: relative;
+  margin: 0 10px 0 0;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 240, ../Programming/js/exam/scss/_header.scss */
+  /* line 241, ../Programming/js/exam/scss/_header.scss */
   .block-menu__toggler {
     display: block;
   }
 }
 
-/* line 245, ../Programming/js/exam/scss/_header.scss */
+/* line 246, ../Programming/js/exam/scss/_header.scss */
 .block-menu__toggler-line {
   width: 100%;
   height: 7px;
@@ -455,35 +456,35 @@ a:hover {
   transform-origin: center;
 }
 
-/* line 259, ../Programming/js/exam/scss/_header.scss */
+/* line 260, ../Programming/js/exam/scss/_header.scss */
 .block-menu__toggler-line:nth-child(1) {
   top: 0;
 }
 
-/* line 263, ../Programming/js/exam/scss/_header.scss */
+/* line 264, ../Programming/js/exam/scss/_header.scss */
 .block-menu__toggler-line:nth-child(2) {
   top: 50%;
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
 
-/* line 269, ../Programming/js/exam/scss/_header.scss */
+/* line 270, ../Programming/js/exam/scss/_header.scss */
 .block-menu__toggler-line:nth-child(3) {
   bottom: 0;
 }
 
-/* line 273, ../Programming/js/exam/scss/_header.scss */
+/* line 274, ../Programming/js/exam/scss/_header.scss */
 .block-menu__toggler--open .block-menu__toggler-line:nth-child(1) {
   -webkit-transform: rotate(45deg) translateY(24px);
   transform: rotate(45deg) translateY(24px);
 }
 
-/* line 278, ../Programming/js/exam/scss/_header.scss */
+/* line 279, ../Programming/js/exam/scss/_header.scss */
 .block-menu__toggler--open .block-menu__toggler-line:nth-child(2) {
   display: none;
 }
 
-/* line 282, ../Programming/js/exam/scss/_header.scss */
+/* line 283, ../Programming/js/exam/scss/_header.scss */
 .block-menu__toggler--open .block-menu__toggler-line:nth-child(3) {
   -webkit-transform: rotate(-45deg) translateY(-24px);
   transform: rotate(-45deg) translateY(-24px);
@@ -984,12 +985,19 @@ p {
   color: white;
 }
 
+@media screen and (max-width: 768px) {
+  /* line 71, ../Programming/js/exam/scss/_gallery.scss */
+  .gallery-btn {
+    margin: 35px auto;
+  }
+}
+
 @media screen and (max-width: 1200px) {
-  /* line 88, ../Programming/js/exam/scss/_gallery.scss */
+  /* line 91, ../Programming/js/exam/scss/_gallery.scss */
   .gallery-block {
     flex-direction: column;
   }
-  /* line 90, ../Programming/js/exam/scss/_gallery.scss */
+  /* line 93, ../Programming/js/exam/scss/_gallery.scss */
   .gallery-block__img {
     width: auto;
   }
@@ -1037,7 +1045,14 @@ p {
   margin-right: 10px;
 }
 
-/* line 34, ../Programming/js/exam/scss/_contacts.scss */
+@media screen and (max-width: 768px) {
+  /* line 17, ../Programming/js/exam/scss/_contacts.scss */
+  .contact-list {
+    padding-right: 0;
+  }
+}
+
+/* line 37, ../Programming/js/exam/scss/_contacts.scss */
 .contact-wrapper {
   position: absolute;
   background-image: url(../images/contact/bg.png);
@@ -1050,22 +1065,23 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 34, ../Programming/js/exam/scss/_contacts.scss */
+  /* line 37, ../Programming/js/exam/scss/_contacts.scss */
   .contact-wrapper {
     position: static;
     top: 0px;
     left: 0;
     transform: translateX(0%);
+    padding: 20px;
   }
 }
 
-/* line 53, ../Programming/js/exam/scss/_contacts.scss */
+/* line 57, ../Programming/js/exam/scss/_contacts.scss */
 .form {
   display: flex;
   flex-direction: column;
 }
 
-/* line 57, ../Programming/js/exam/scss/_contacts.scss */
+/* line 61, ../Programming/js/exam/scss/_contacts.scss */
 #name,
 #email {
   width: 310px;
@@ -1079,20 +1095,20 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 57, ../Programming/js/exam/scss/_contacts.scss */
+  /* line 61, ../Programming/js/exam/scss/_contacts.scss */
   #name,
   #email {
     width: 100%;
   }
 }
 
-/* line 71, ../Programming/js/exam/scss/_contacts.scss */
+/* line 75, ../Programming/js/exam/scss/_contacts.scss */
 #name::placeholder,
 #email::placeholder {
   opacity: 0.5;
 }
 
-/* line 75, ../Programming/js/exam/scss/_contacts.scss */
+/* line 79, ../Programming/js/exam/scss/_contacts.scss */
 #submit {
   font-size: 14px;
   font-family: "GothamBook";
@@ -1106,19 +1122,19 @@ p {
   align-self: flex-end;
 }
 
-/* line 87, ../Programming/js/exam/scss/_contacts.scss */
+/* line 91, ../Programming/js/exam/scss/_contacts.scss */
 #submit:hover, #submit:focus {
   background-color: #2c4058;
   color: white;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 95, ../Programming/js/exam/scss/_contacts.scss */
+  /* line 99, ../Programming/js/exam/scss/_contacts.scss */
   .contact-form {
     display: block;
     flex-direction: column;
   }
-  /* line 99, ../Programming/js/exam/scss/_contacts.scss */
+  /* line 103, ../Programming/js/exam/scss/_contacts.scss */
   #submit {
     align-self: start !important;
   }

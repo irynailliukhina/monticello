@@ -83,6 +83,9 @@
         background-color: $color-blue;
         color: white;
     }
+    @media screen and (max-width: 768px) {
+        margin: 35px auto;
+    }
 }
 @media screen and (max-width:1200px){
     .gallery-block{

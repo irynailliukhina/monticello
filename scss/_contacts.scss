@@ -30,6 +30,9 @@
         margin-right: 10px;
       }
     }
+    @media screen and (max-width: 768px) {
+      padding-right: 0;
+    }
 }
 .contact-wrapper{
   position: absolute;
@@ -46,6 +49,7 @@
     top: 0px;
     left: 0;
     transform: translateX(0%);
+    padding: 20px;
   }
 
   
