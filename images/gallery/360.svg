@@ -1,0 +1,31 @@
+<svg id="_360" data-name="360" xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 82 82">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-1 {
+        stroke-width: 2.857px;
+      }
+
+      .cls-2 {
+        stroke-width: 1.429px;
+        opacity: 0.6;
+      }
+
+      .cls-3 {
+        font-size: 18px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: ProximaNova;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="41" cy="41" r="40"/>
+  <ellipse class="cls-2" cx="41.656" cy="41" rx="19.344" ry="36"/>
+  <ellipse class="cls-2" cx="41" cy="41.656" rx="36" ry="19.344"/>
+  <text id="_360_" data-name="360˚" class="cls-3" transform="translate(40.949 50.07) scale(1.333)">360˚</text>
+</svg>

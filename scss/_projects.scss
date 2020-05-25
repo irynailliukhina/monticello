@@ -101,18 +101,27 @@ p {
 .image--rtl {
   margin-left: 70px;
   position: relative;
-  &__bg--rtl {
+  &::before{
+    content: " ";
+    width: 585px;
+    height: 470px;
+    background-color: #7e5aff;
     position: absolute;
-    right: -600px;
+    left: 160px;
     top: -70px;
     z-index: -10;
-    overflow: hidden;
-  }
 }
+}
+
 @media screen and (max-width: 1440px) {
   .image__bg--rtl,
   .image__bg {
     display: none;
+  }
+  .image--rtl{
+    &::before{
+      content: none;
+    }
   }
 }
 

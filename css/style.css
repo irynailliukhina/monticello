@@ -17,19 +17,19 @@
   font-style: normal;
 }
 
-/* line 1, ../Programming/js/exam/scss/_reset.scss */
+/* line 1, ../Programming/beetroot/js/exam/scss/_reset.scss */
 html {
   width: 100%;
   height: 100%;
 }
 
-/* line 5, ../Programming/js/exam/scss/_reset.scss */
+/* line 5, ../Programming/beetroot/js/exam/scss/_reset.scss */
 body {
   background: #ffffff;
   text-decoration: none;
 }
 
-/* line 10, ../Programming/js/exam/scss/_reset.scss */
+/* line 10, ../Programming/beetroot/js/exam/scss/_reset.scss */
 body,
 form,
 div,
@@ -55,7 +55,7 @@ table td {
   padding: 0;
 }
 
-/* line 35, ../Programming/js/exam/scss/_reset.scss */
+/* line 35, ../Programming/beetroot/js/exam/scss/_reset.scss */
 input,
 textarea,
 select {
@@ -65,31 +65,31 @@ select {
   box-sizing: border-box;
 }
 
-/* line 44, ../Programming/js/exam/scss/_reset.scss */
+/* line 44, ../Programming/beetroot/js/exam/scss/_reset.scss */
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 49, ../Programming/js/exam/scss/_reset.scss */
+/* line 49, ../Programming/beetroot/js/exam/scss/_reset.scss */
 a {
   text-decoration: none;
   outline: none;
 }
 
-/* line 54, ../Programming/js/exam/scss/_reset.scss */
+/* line 54, ../Programming/beetroot/js/exam/scss/_reset.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 58, ../Programming/js/exam/scss/_reset.scss */
+/* line 58, ../Programming/beetroot/js/exam/scss/_reset.scss */
 .mainer {
   max-width: 1200px;
   padding: auto 15px;
   margin: 0 auto;
 }
 
-/* line 64, ../Programming/js/exam/scss/_reset.scss */
+/* line 64, ../Programming/beetroot/js/exam/scss/_reset.scss */
 .info__title,
 .projects .title,
 .news-title,
@@ -103,7 +103,7 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 64, ../Programming/js/exam/scss/_reset.scss */
+  /* line 64, ../Programming/beetroot/js/exam/scss/_reset.scss */
   .info__title,
   .projects .title,
   .news-title,
@@ -115,7 +115,7 @@ a:hover {
 }
 
 @media screen and (max-width: 480px) {
-  /* line 64, ../Programming/js/exam/scss/_reset.scss */
+  /* line 64, ../Programming/beetroot/js/exam/scss/_reset.scss */
   .info__title,
   .projects .title,
   .news-title,
@@ -126,27 +126,27 @@ a:hover {
   }
 }
 
-/* line 84, ../Programming/js/exam/scss/_reset.scss */
+/* line 84, ../Programming/beetroot/js/exam/scss/_reset.scss */
 #map {
   height: 700px;
   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 84, ../Programming/js/exam/scss/_reset.scss */
+  /* line 84, ../Programming/beetroot/js/exam/scss/_reset.scss */
   #map {
     height: 300px;
   }
 }
 
 @media screen and (max-width: 460px) {
-  /* line 84, ../Programming/js/exam/scss/_reset.scss */
+  /* line 84, ../Programming/beetroot/js/exam/scss/_reset.scss */
   #map {
     height: 200px;
   }
 }
 
-/* line 1, ../Programming/js/exam/scss/_header.scss */
+/* line 1, ../Programming/beetroot/js/exam/scss/_header.scss */
 .header-title {
   position: absolute;
   top: 40%;
@@ -155,7 +155,7 @@ a:hover {
   text-align: center;
 }
 
-/* line 8, ../Programming/js/exam/scss/_header.scss */
+/* line 8, ../Programming/beetroot/js/exam/scss/_header.scss */
 .header-title__name {
   font-family: "gothambold1", sans-serif;
   font-size: 80px;
@@ -163,7 +163,7 @@ a:hover {
   text-transform: uppercase;
 }
 
-/* line 14, ../Programming/js/exam/scss/_header.scss */
+/* line 14, ../Programming/beetroot/js/exam/scss/_header.scss */
 .header-title__desc {
   font-family: "GothamBook";
   font-size: 18px;
@@ -172,42 +172,42 @@ a:hover {
   text-transform: uppercase;
 }
 
-/* line 22, ../Programming/js/exam/scss/_header.scss */
+/* line 22, ../Programming/beetroot/js/exam/scss/_header.scss */
 .header {
   position: relative;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 26, ../Programming/js/exam/scss/_header.scss */
+  /* line 26, ../Programming/beetroot/js/exam/scss/_header.scss */
   .slider-item {
     max-height: 110vw;
   }
-  /* line 29, ../Programming/js/exam/scss/_header.scss */
+  /* line 29, ../Programming/beetroot/js/exam/scss/_header.scss */
   .header-title__name {
     font-size: 44px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  /* line 34, ../Programming/js/exam/scss/_header.scss */
+  /* line 34, ../Programming/beetroot/js/exam/scss/_header.scss */
   .icon-scroll {
     display: none;
   }
-  /* line 37, ../Programming/js/exam/scss/_header.scss */
+  /* line 37, ../Programming/beetroot/js/exam/scss/_header.scss */
   .header-title {
     top: 120px;
   }
-  /* line 39, ../Programming/js/exam/scss/_header.scss */
+  /* line 39, ../Programming/beetroot/js/exam/scss/_header.scss */
   .header-title__desc {
     font-size: 12px;
   }
-  /* line 43, ../Programming/js/exam/scss/_header.scss */
+  /* line 43, ../Programming/beetroot/js/exam/scss/_header.scss */
   .header-title__name {
     font-size: 34px;
   }
 }
 
-/* line 47, ../Programming/js/exam/scss/_header.scss */
+/* line 47, ../Programming/beetroot/js/exam/scss/_header.scss */
 .icon-scroll {
   position: absolute;
   bottom: 35px;
@@ -223,19 +223,19 @@ a:hover {
   cursor: pointer;
 }
 
-/* line 61, ../Programming/js/exam/scss/_header.scss */
+/* line 61, ../Programming/beetroot/js/exam/scss/_header.scss */
 .icon-scroll:hover {
   background-color: rgba(255, 255, 255, 0.521);
 }
 
-/* line 65, ../Programming/js/exam/scss/_header.scss */
+/* line 65, ../Programming/beetroot/js/exam/scss/_header.scss */
 .fa-angle-down {
   color: white;
   font-size: 16px;
   margin: 0 !important;
 }
 
-/* line 70, ../Programming/js/exam/scss/_header.scss */
+/* line 70, ../Programming/beetroot/js/exam/scss/_header.scss */
 .nav {
   background-color: #2c405860;
   position: fixed;
@@ -244,7 +244,7 @@ a:hover {
   padding: 20px 0;
 }
 
-/* line 77, ../Programming/js/exam/scss/_header.scss */
+/* line 77, ../Programming/beetroot/js/exam/scss/_header.scss */
 .nav--width {
   max-width: 1200px;
   display: flex;
@@ -254,7 +254,7 @@ a:hover {
   margin: 0 auto;
 }
 
-/* line 86, ../Programming/js/exam/scss/_header.scss */
+/* line 86, ../Programming/beetroot/js/exam/scss/_header.scss */
 .logo {
   width: 250px;
   height: 55px;
@@ -263,7 +263,7 @@ a:hover {
   display: inline-block;
 }
 
-/* line 94, ../Programming/js/exam/scss/_header.scss */
+/* line 94, ../Programming/beetroot/js/exam/scss/_header.scss */
 .menu {
   display: flex;
   justify-content: space-around;
@@ -271,7 +271,7 @@ a:hover {
   flex-grow: 1;
 }
 
-/* line 100, ../Programming/js/exam/scss/_header.scss */
+/* line 100, ../Programming/beetroot/js/exam/scss/_header.scss */
 .menu__item {
   color: white;
   text-transform: uppercase;
@@ -281,12 +281,12 @@ a:hover {
   position: relative;
 }
 
-/* line 108, ../Programming/js/exam/scss/_header.scss */
+/* line 108, ../Programming/beetroot/js/exam/scss/_header.scss */
 .menu__item:hover {
   cursor: pointer;
 }
 
-/* line 110, ../Programming/js/exam/scss/_header.scss */
+/* line 110, ../Programming/beetroot/js/exam/scss/_header.scss */
 .menu__item:hover::before {
   content: " ";
   display: inline-block;
@@ -298,7 +298,7 @@ a:hover {
   background-color: white;
 }
 
-/* line 120, ../Programming/js/exam/scss/_header.scss */
+/* line 120, ../Programming/beetroot/js/exam/scss/_header.scss */
 .menu__item:hover::after {
   content: " ";
   display: inline-block;
@@ -310,7 +310,7 @@ a:hover {
   background-color: white;
 }
 
-/* line 132, ../Programming/js/exam/scss/_header.scss */
+/* line 132, ../Programming/beetroot/js/exam/scss/_header.scss */
 .menu__item::before {
   content: " ";
   display: inline-block;
@@ -321,7 +321,7 @@ a:hover {
   margin: 0 13px;
 }
 
-/* line 141, ../Programming/js/exam/scss/_header.scss */
+/* line 141, ../Programming/beetroot/js/exam/scss/_header.scss */
 .menu__item--active::before {
   content: " ";
   display: inline-block;
@@ -333,12 +333,12 @@ a:hover {
   background-color: white;
 }
 
-/* line 154, ../Programming/js/exam/scss/_header.scss */
+/* line 154, ../Programming/beetroot/js/exam/scss/_header.scss */
 .icons {
   display: flex;
 }
 
-/* line 157, ../Programming/js/exam/scss/_header.scss */
+/* line 157, ../Programming/beetroot/js/exam/scss/_header.scss */
 .icons__item {
   width: 40px;
   height: 40px;
@@ -351,53 +351,53 @@ a:hover {
   cursor: pointer;
 }
 
-/* line 168, ../Programming/js/exam/scss/_header.scss */
+/* line 168, ../Programming/beetroot/js/exam/scss/_header.scss */
 .icons__item:hover,
 .icons__item:hover > i {
   background-color: white;
   color: #2c4058;
 }
 
-/* line 173, ../Programming/js/exam/scss/_header.scss */
+/* line 173, ../Programming/beetroot/js/exam/scss/_header.scss */
 .icons__item .fab {
   color: white;
   font-size: 16px;
 }
 
 @media screen and (max-width: 840px) {
-  /* line 180, ../Programming/js/exam/scss/_header.scss */
+  /* line 180, ../Programming/beetroot/js/exam/scss/_header.scss */
   .icons {
     display: none;
   }
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  /* line 186, ../Programming/js/exam/scss/_header.scss */
+  /* line 186, ../Programming/beetroot/js/exam/scss/_header.scss */
   .nav {
     background-color: #2c4058;
   }
-  /* line 189, ../Programming/js/exam/scss/_header.scss */
+  /* line 189, ../Programming/beetroot/js/exam/scss/_header.scss */
   .logo {
     height: 54px;
     width: 241px;
     background-image: url(../images/ie/logo.png);
   }
-  /* line 194, ../Programming/js/exam/scss/_header.scss */
+  /* line 194, ../Programming/beetroot/js/exam/scss/_header.scss */
   .slider-item--ie {
     display: none;
   }
-  /* line 197, ../Programming/js/exam/scss/_header.scss */
+  /* line 197, ../Programming/beetroot/js/exam/scss/_header.scss */
   .fas {
     display: block;
   }
-  /* line 200, ../Programming/js/exam/scss/_header.scss */
+  /* line 200, ../Programming/beetroot/js/exam/scss/_header.scss */
   .icon-scroll {
     display: none;
   }
 }
 
 @media screen and (max-width: 768px) {
-  /* line 206, ../Programming/js/exam/scss/_header.scss */
+  /* line 206, ../Programming/beetroot/js/exam/scss/_header.scss */
   .menu {
     position: fixed;
     top: 95px;
@@ -409,23 +409,23 @@ a:hover {
     align-items: flex-start;
     transition-duration: 0.3s;
   }
-  /* line 217, ../Programming/js/exam/scss/_header.scss */
+  /* line 217, ../Programming/beetroot/js/exam/scss/_header.scss */
   .menu--open {
     left: 0;
   }
-  /* line 220, ../Programming/js/exam/scss/_header.scss */
+  /* line 220, ../Programming/beetroot/js/exam/scss/_header.scss */
   .menu__item {
     margin: 0 0;
     padding: 15px;
     font-weight: bold;
   }
-  /* line 224, ../Programming/js/exam/scss/_header.scss */
+  /* line 224, ../Programming/beetroot/js/exam/scss/_header.scss */
   .menu__item::before, .menu__item:hover::before, .menu__item:hover::after {
     content: none;
   }
 }
 
-/* line 232, ../Programming/js/exam/scss/_header.scss */
+/* line 232, ../Programming/beetroot/js/exam/scss/_header.scss */
 .block-menu__toggler {
   width: 42px;
   height: 42px;
@@ -435,13 +435,13 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 241, ../Programming/js/exam/scss/_header.scss */
+  /* line 241, ../Programming/beetroot/js/exam/scss/_header.scss */
   .block-menu__toggler {
     display: block;
   }
 }
 
-/* line 246, ../Programming/js/exam/scss/_header.scss */
+/* line 246, ../Programming/beetroot/js/exam/scss/_header.scss */
 .block-menu__toggler-line {
   width: 100%;
   height: 7px;
@@ -456,60 +456,60 @@ a:hover {
   transform-origin: center;
 }
 
-/* line 260, ../Programming/js/exam/scss/_header.scss */
+/* line 260, ../Programming/beetroot/js/exam/scss/_header.scss */
 .block-menu__toggler-line:nth-child(1) {
   top: 0;
 }
 
-/* line 264, ../Programming/js/exam/scss/_header.scss */
+/* line 264, ../Programming/beetroot/js/exam/scss/_header.scss */
 .block-menu__toggler-line:nth-child(2) {
   top: 50%;
   -webkit-transform: translateY(-3px);
   transform: translateY(-3px);
 }
 
-/* line 270, ../Programming/js/exam/scss/_header.scss */
+/* line 270, ../Programming/beetroot/js/exam/scss/_header.scss */
 .block-menu__toggler-line:nth-child(3) {
   bottom: 0;
 }
 
-/* line 274, ../Programming/js/exam/scss/_header.scss */
+/* line 274, ../Programming/beetroot/js/exam/scss/_header.scss */
 .block-menu__toggler--open .block-menu__toggler-line:nth-child(1) {
   -webkit-transform: rotate(45deg) translateY(24px);
   transform: rotate(45deg) translateY(24px);
 }
 
-/* line 279, ../Programming/js/exam/scss/_header.scss */
+/* line 279, ../Programming/beetroot/js/exam/scss/_header.scss */
 .block-menu__toggler--open .block-menu__toggler-line:nth-child(2) {
   display: none;
 }
 
-/* line 283, ../Programming/js/exam/scss/_header.scss */
+/* line 283, ../Programming/beetroot/js/exam/scss/_header.scss */
 .block-menu__toggler--open .block-menu__toggler-line:nth-child(3) {
   -webkit-transform: rotate(-45deg) translateY(-24px);
   transform: rotate(-45deg) translateY(-24px);
 }
 
-/* line 1, ../Programming/js/exam/scss/_projects.scss */
+/* line 1, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .hidden-rtl,
 .hidden {
   display: none;
 }
 
-/* line 5, ../Programming/js/exam/scss/_projects.scss */
+/* line 5, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .projects {
   padding: 100px 0 0 0px;
   max-width: 1200px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 5, ../Programming/js/exam/scss/_projects.scss */
+  /* line 5, ../Programming/beetroot/js/exam/scss/_projects.scss */
   .projects {
     padding: 40px 0;
   }
 }
 
-/* line 12, ../Programming/js/exam/scss/_projects.scss */
+/* line 12, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .title {
   text-align: center;
   margin: 0 auto 130px auto;
@@ -517,13 +517,13 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 12, ../Programming/js/exam/scss/_projects.scss */
+  /* line 12, ../Programming/beetroot/js/exam/scss/_projects.scss */
   .title {
     margin: 20px 0;
   }
 }
 
-/* line 19, ../Programming/js/exam/scss/_projects.scss */
+/* line 19, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .title__line {
   width: 100px;
   height: 1px;
@@ -531,18 +531,18 @@ a:hover {
   margin: 0 auto 30px auto;
 }
 
-/* line 27, ../Programming/js/exam/scss/_projects.scss */
+/* line 27, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .project-block {
   display: flex;
   position: relative;
 }
 
-/* line 31, ../Programming/js/exam/scss/_projects.scss */
+/* line 31, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .image {
   max-width: 100%;
 }
 
-/* line 34, ../Programming/js/exam/scss/_projects.scss */
+/* line 34, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .image__bg {
   width: 585px;
   height: 470px;
@@ -553,12 +553,12 @@ a:hover {
   z-index: -10;
 }
 
-/* line 43, ../Programming/js/exam/scss/_projects.scss */
+/* line 43, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .image--responsive {
   display: none;
 }
 
-/* line 48, ../Programming/js/exam/scss/_projects.scss */
+/* line 48, ../Programming/beetroot/js/exam/scss/_projects.scss */
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -566,30 +566,30 @@ p {
   max-width: 100%;
 }
 
-/* line 55, ../Programming/js/exam/scss/_projects.scss */
+/* line 55, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .info {
   flex-grow: 1;
   margin: 60px 0 0 70px;
   max-width: 100%;
 }
 
-/* line 59, ../Programming/js/exam/scss/_projects.scss */
+/* line 59, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .info--rtl {
   margin: 60px 30px 0 0;
 }
 
-/* line 62, ../Programming/js/exam/scss/_projects.scss */
+/* line 62, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .info__name {
   font-size: 22px;
   text-transform: uppercase;
 }
 
-/* line 66, ../Programming/js/exam/scss/_projects.scss */
+/* line 66, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .info__title {
   margin: 10px 0;
 }
 
-/* line 69, ../Programming/js/exam/scss/_projects.scss */
+/* line 69, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .info__details {
   font-size: 14px;
   color: #2c4058;
@@ -602,55 +602,62 @@ p {
   cursor: pointer;
 }
 
-/* line 80, ../Programming/js/exam/scss/_projects.scss */
+/* line 80, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .info__details:hover, .info__details:focus {
   background-color: #2c4058;
   color: white;
 }
 
-/* line 86, ../Programming/js/exam/scss/_projects.scss */
+/* line 86, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .info__localion {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-style: italic;
 }
 
-/* line 94, ../Programming/js/exam/scss/_projects.scss */
+/* line 94, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .fas {
   margin: 0 10px 0 0;
 }
 
-/* line 97, ../Programming/js/exam/scss/_projects.scss */
+/* line 97, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .project-block--rtl {
   position: relative;
   margin: 210px 0 140px 0 !important;
 }
 
-/* line 101, ../Programming/js/exam/scss/_projects.scss */
+/* line 101, ../Programming/beetroot/js/exam/scss/_projects.scss */
 .image--rtl {
   margin-left: 70px;
   position: relative;
 }
 
-/* line 104, ../Programming/js/exam/scss/_projects.scss */
-.image--rtl__bg--rtl {
+/* line 104, ../Programming/beetroot/js/exam/scss/_projects.scss */
+.image--rtl::before {
+  content: " ";
+  width: 585px;
+  height: 470px;
+  background-color: #7e5aff;
   position: absolute;
-  right: -600px;
+  left: 160px;
   top: -70px;
   z-index: -10;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 1440px) {
-  /* line 113, ../Programming/js/exam/scss/_projects.scss */
+  /* line 117, ../Programming/beetroot/js/exam/scss/_projects.scss */
   .image__bg--rtl,
   .image__bg {
     display: none;
   }
+  /* line 122, ../Programming/beetroot/js/exam/scss/_projects.scss */
+  .image--rtl::before {
+    content: none;
+  }
 }
 
 @media screen and (max-width: 1160px) {
-  /* line 120, ../Programming/js/exam/scss/_projects.scss */
+  /* line 129, ../Programming/beetroot/js/exam/scss/_projects.scss */
   .project-block,
   .project-block--rtl {
     display: block;
@@ -658,35 +665,35 @@ p {
     margin: 0 auto !important;
     text-align: left;
   }
-  /* line 127, ../Programming/js/exam/scss/_projects.scss */
+  /* line 136, ../Programming/beetroot/js/exam/scss/_projects.scss */
   .title {
     padding: 0;
     margin: 0 auto 20px 0;
   }
-  /* line 131, ../Programming/js/exam/scss/_projects.scss */
+  /* line 140, ../Programming/beetroot/js/exam/scss/_projects.scss */
   .info {
     margin: 30px auto !important;
   }
-  /* line 134, ../Programming/js/exam/scss/_projects.scss */
+  /* line 143, ../Programming/beetroot/js/exam/scss/_projects.scss */
   .image {
     display: block;
     margin: 0 auto !important;
   }
-  /* line 137, ../Programming/js/exam/scss/_projects.scss */
+  /* line 146, ../Programming/beetroot/js/exam/scss/_projects.scss */
   .image__photo {
     width: 90%;
   }
-  /* line 140, ../Programming/js/exam/scss/_projects.scss */
+  /* line 149, ../Programming/beetroot/js/exam/scss/_projects.scss */
   .image--responsive {
     display: block !important;
   }
-  /* line 143, ../Programming/js/exam/scss/_projects.scss */
+  /* line 152, ../Programming/beetroot/js/exam/scss/_projects.scss */
   .image__bg--rtl, .image__bg, .image--rtl {
     display: none !important;
   }
 }
 
-/* line 1, ../Programming/js/exam/scss/_news.scss */
+/* line 1, ../Programming/beetroot/js/exam/scss/_news.scss */
 .news {
   background-image: url(../images/news/bg.png);
   background-size: cover;
@@ -694,13 +701,13 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 1, ../Programming/js/exam/scss/_news.scss */
+  /* line 1, ../Programming/beetroot/js/exam/scss/_news.scss */
   .news {
     padding: 20px 0;
   }
 }
 
-/* line 9, ../Programming/js/exam/scss/_news.scss */
+/* line 9, ../Programming/beetroot/js/exam/scss/_news.scss */
 .news-title {
   text-align: center;
   color: white;
@@ -708,7 +715,7 @@ p {
   position: relative;
 }
 
-/* line 14, ../Programming/js/exam/scss/_news.scss */
+/* line 14, ../Programming/beetroot/js/exam/scss/_news.scss */
 .news-title__line {
   background-color: white;
   margin: 0 auto;
@@ -718,13 +725,13 @@ p {
   display: flex;
 }
 
-/* line 24, ../Programming/js/exam/scss/_news.scss */
+/* line 24, ../Programming/beetroot/js/exam/scss/_news.scss */
 .slider-news {
   width: 100%;
   margin-bottom: 130px;
 }
 
-/* line 28, ../Programming/js/exam/scss/_news.scss */
+/* line 28, ../Programming/beetroot/js/exam/scss/_news.scss */
 .news-item {
   background-color: white;
   height: 80px;
@@ -735,7 +742,7 @@ p {
   position: relative;
 }
 
-/* line 37, ../Programming/js/exam/scss/_news.scss */
+/* line 37, ../Programming/beetroot/js/exam/scss/_news.scss */
 .news-item__title {
   text-transform: uppercase;
   font-family: "gothambold1", sans-serif;
@@ -744,7 +751,7 @@ p {
   line-height: 34px;
 }
 
-/* line 44, ../Programming/js/exam/scss/_news.scss */
+/* line 44, ../Programming/beetroot/js/exam/scss/_news.scss */
 .news-item__desc {
   font-size: 18px;
   line-height: 30px;
@@ -752,25 +759,25 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 50, ../Programming/js/exam/scss/_news.scss */
+/* line 50, ../Programming/beetroot/js/exam/scss/_news.scss */
 .news-item__img {
   width: 100%;
 }
 
-/* line 53, ../Programming/js/exam/scss/_news.scss */
+/* line 53, ../Programming/beetroot/js/exam/scss/_news.scss */
 .news-item__author {
   display: flex;
   padding: 30px 0 0 0;
   align-items: center;
 }
 
-/* line 60, ../Programming/js/exam/scss/_news.scss */
+/* line 60, ../Programming/beetroot/js/exam/scss/_news.scss */
 .author__logo {
   border-radius: 50%;
   margin: 0 20px 0 0;
 }
 
-/* line 64, ../Programming/js/exam/scss/_news.scss */
+/* line 64, ../Programming/beetroot/js/exam/scss/_news.scss */
 .author__name {
   font-family: "GothamBook";
   font-size: 18px;
@@ -778,7 +785,7 @@ p {
   line-height: 22px;
 }
 
-/* line 70, ../Programming/js/exam/scss/_news.scss */
+/* line 70, ../Programming/beetroot/js/exam/scss/_news.scss */
 .author__date {
   font-size: 14px;
   line-height: 22px;
@@ -787,7 +794,7 @@ p {
   margin: 5px 0 0 0;
 }
 
-/* line 78, ../Programming/js/exam/scss/_news.scss */
+/* line 78, ../Programming/beetroot/js/exam/scss/_news.scss */
 .author__info {
   display: flex;
   flex-direction: column;
@@ -795,7 +802,7 @@ p {
   margin: 0;
 }
 
-/* line 85, ../Programming/js/exam/scss/_news.scss */
+/* line 85, ../Programming/beetroot/js/exam/scss/_news.scss */
 .news-item__hover {
   height: 80px;
   width: 80px;
@@ -807,18 +814,18 @@ p {
   display: none;
 }
 
-/* line 95, ../Programming/js/exam/scss/_news.scss */
+/* line 95, ../Programming/beetroot/js/exam/scss/_news.scss */
 .news-item:hover .news-item__hover {
   display: block;
 }
 
-/* line 99, ../Programming/js/exam/scss/_news.scss */
+/* line 99, ../Programming/beetroot/js/exam/scss/_news.scss */
 .news-text {
   background-color: white;
   padding: 20px;
 }
 
-/* line 105, ../Programming/js/exam/scss/_news.scss */
+/* line 105, ../Programming/beetroot/js/exam/scss/_news.scss */
 .prev, .next {
   width: 40px;
   height: 40px;
@@ -834,138 +841,47 @@ p {
   overflow: hidden;
 }
 
-/* line 120, ../Programming/js/exam/scss/_news.scss */
+/* line 120, ../Programming/beetroot/js/exam/scss/_news.scss */
 .prev {
   left: -80px;
 }
 
-/* line 123, ../Programming/js/exam/scss/_news.scss */
+/* line 123, ../Programming/beetroot/js/exam/scss/_news.scss */
 .next {
   right: -80px;
   background-position: 100%;
 }
 
-/* line 127, ../Programming/js/exam/scss/_news.scss */
+/* line 127, ../Programming/beetroot/js/exam/scss/_news.scss */
 .prev:hover, .next:hover {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.712);
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  /* line 134, ../Programming/js/exam/scss/_news.scss */
+  /* line 134, ../Programming/beetroot/js/exam/scss/_news.scss */
   .news-item {
     display: inline-block;
     width: 355px;
   }
-  /* line 137, ../Programming/js/exam/scss/_news.scss */
+  /* line 137, ../Programming/beetroot/js/exam/scss/_news.scss */
   .news-item--ie {
     display: none;
   }
-  /* line 141, ../Programming/js/exam/scss/_news.scss */
+  /* line 141, ../Programming/beetroot/js/exam/scss/_news.scss */
   .map {
     height: 200px;
   }
 }
 
-/* line 1, ../Programming/js/exam/scss/_gallery.scss */
+/* line 1, ../Programming/beetroot/js/exam/scss/_gallery.scss */
 .gallery-title {
   text-align: center;
   position: relative;
   margin: 140px 0 100px 0;
 }
 
-/* line 6, ../Programming/js/exam/scss/_gallery.scss */
-.gallery-block {
-  display: flex;
-  align-items: center;
-}
-
-/* line 9, ../Programming/js/exam/scss/_gallery.scss */
-.gallery-block__img {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  margin: 0 auto;
-  position: relative;
-}
-
-/* line 15, ../Programming/js/exam/scss/_gallery.scss */
-.gallery-block__img:hover .gallery-block__img--hover {
-  opacity: 0.7;
-  transition-duration: 0.3s;
-}
-
-@media screen and (max-width: 1200px) {
-  /* line 9, ../Programming/js/exam/scss/_gallery.scss */
-  .gallery-block__img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-}
-
-@media screen and (max-width: 594px) {
-  /* line 9, ../Programming/js/exam/scss/_gallery.scss */
-  .gallery-block__img {
-    display: none;
-  }
-}
-
-/* line 26, ../Programming/js/exam/scss/_gallery.scss */
-.gallery-block__img--big {
-  margin: 0 auto;
-}
-
-/* line 30, ../Programming/js/exam/scss/_gallery.scss */
-.gallery-block__img--small {
-  position: relative;
-}
-
-/* line 32, ../Programming/js/exam/scss/_gallery.scss */
-.gallery-block__img--small:hover .gallery-block__img--hover {
-  opacity: 0.7;
-  transition-duration: 0.3s;
-}
-
-/* line 37, ../Programming/js/exam/scss/_gallery.scss */
-.gallery-block__img--hover {
-  z-index: 10;
-  height: 80px;
-  width: 80px;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translateX(-50%);
-  fill: white;
-  opacity: 0;
-}
-
-/* line 48, ../Programming/js/exam/scss/_gallery.scss */
-.gallery-block__img--margin {
-  max-width: 100%;
-  max-height: 100%;
-  margin: 5px;
-  cursor: pointer;
-  border: 1px solid transparent;
-  position: relative;
-}
-
-/* line 55, ../Programming/js/exam/scss/_gallery.scss */
-.gallery-block__img--margin:hover {
-  border: 1px solid #2c4058;
-  box-sizing: border-box;
-  position: relative;
-}
-
-/* line 63, ../Programming/js/exam/scss/_gallery.scss */
-.gallery-block__small {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-}
-
-/* line 71, ../Programming/js/exam/scss/_gallery.scss */
+/* line 71, ../Programming/beetroot/js/exam/scss/_gallery.scss */
 .gallery-btn {
   display: flex;
   font-size: 14px;
@@ -975,42 +891,105 @@ p {
   padding: 15px 40px;
   text-transform: uppercase;
   background-color: transparent;
-  margin: 35px auto 140px auto;
+  margin: 50px auto 140px auto;
   cursor: pointer;
 }
 
-/* line 82, ../Programming/js/exam/scss/_gallery.scss */
+/* line 82, ../Programming/beetroot/js/exam/scss/_gallery.scss */
 .gallery-btn:hover, .gallery-btn:focus {
   background-color: #2c4058;
   color: white;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 71, ../Programming/js/exam/scss/_gallery.scss */
+  /* line 71, ../Programming/beetroot/js/exam/scss/_gallery.scss */
   .gallery-btn {
     margin: 35px auto;
   }
 }
 
-@media screen and (max-width: 1200px) {
-  /* line 91, ../Programming/js/exam/scss/_gallery.scss */
-  .gallery-block {
-    flex-direction: column;
-  }
-  /* line 93, ../Programming/js/exam/scss/_gallery.scss */
-  .gallery-block__img {
-    width: auto;
+/* line 93, ../Programming/beetroot/js/exam/scss/_gallery.scss */
+.gallery-container {
+  display: -ms-grid;
+  display: grid;
+  margin: 0;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  -ms-gap: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 93, ../Programming/beetroot/js/exam/scss/_gallery.scss */
+  .gallery-container {
+    grid-template-columns: 1fr;
   }
 }
 
-/* line 1, ../Programming/js/exam/scss/_contacts.scss */
+/* line 105, ../Programming/beetroot/js/exam/scss/_gallery.scss */
+.gallery-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 113, ../Programming/beetroot/js/exam/scss/_gallery.scss */
+.gallery-container div {
+  position: relative;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+/* line 117, ../Programming/beetroot/js/exam/scss/_gallery.scss */
+.gallery-container div:hover {
+  border: 1px solid #2c4058;
+  box-sizing: border-box;
+}
+
+/* line 120, ../Programming/beetroot/js/exam/scss/_gallery.scss */
+.gallery-container div:hover::before {
+  content: ' ';
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-image: url(/images/gallery/360.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+/* line 134, ../Programming/beetroot/js/exam/scss/_gallery.scss */
+.gallery-container div:first-child {
+  grid-column: span 2;
+  -ms-grid-column-span: 2;
+  grid-row: span 2;
+  -ms-grid-row-span: 2;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 134, ../Programming/beetroot/js/exam/scss/_gallery.scss */
+  .gallery-container div:first-child {
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
+    display: none;
+  }
+}
+
+/* line 1, ../Programming/beetroot/js/exam/scss/_contacts.scss */
 .contact {
   position: relative;
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 5, ../Programming/js/exam/scss/_contacts.scss */
+/* line 5, ../Programming/beetroot/js/exam/scss/_contacts.scss */
 .contact-title {
   text-align: center;
   position: relative;
@@ -1018,44 +997,44 @@ p {
   font-family: "Gotham", sans-serif;
 }
 
-/* line 11, ../Programming/js/exam/scss/_contacts.scss */
+/* line 11, ../Programming/beetroot/js/exam/scss/_contacts.scss */
 .contact-form {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-/* line 17, ../Programming/js/exam/scss/_contacts.scss */
+/* line 17, ../Programming/beetroot/js/exam/scss/_contacts.scss */
 .contact-list {
   display: flex;
   flex-direction: column;
   padding-right: 50px;
 }
 
-/* line 21, ../Programming/js/exam/scss/_contacts.scss */
+/* line 21, ../Programming/beetroot/js/exam/scss/_contacts.scss */
 .contact-list__adress, .contact-list__phone, .contact-list__email, .contact-list__time {
   margin: 20px 0;
   font-size: 18px;
   font-family: "GothamBook";
 }
 
-/* line 28, ../Programming/js/exam/scss/_contacts.scss */
+/* line 28, ../Programming/beetroot/js/exam/scss/_contacts.scss */
 .contact-list__adress i, .contact-list__phone i, .contact-list__email i, .contact-list__time i {
   color: #7e5aff;
   margin-right: 10px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 17, ../Programming/js/exam/scss/_contacts.scss */
+  /* line 17, ../Programming/beetroot/js/exam/scss/_contacts.scss */
   .contact-list {
     padding-right: 0;
   }
 }
 
-/* line 37, ../Programming/js/exam/scss/_contacts.scss */
+/* line 37, ../Programming/beetroot/js/exam/scss/_contacts.scss */
 .contact-wrapper {
   position: absolute;
-  background-image: url(../images/contact/bg.png);
+  background-image: url(/images/contact/bg.png);
   background-size: cover;
   bottom: -150px;
   left: 50%;
@@ -1065,7 +1044,7 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 37, ../Programming/js/exam/scss/_contacts.scss */
+  /* line 37, ../Programming/beetroot/js/exam/scss/_contacts.scss */
   .contact-wrapper {
     position: static;
     top: 0px;
@@ -1075,13 +1054,13 @@ p {
   }
 }
 
-/* line 57, ../Programming/js/exam/scss/_contacts.scss */
+/* line 57, ../Programming/beetroot/js/exam/scss/_contacts.scss */
 .form {
   display: flex;
   flex-direction: column;
 }
 
-/* line 61, ../Programming/js/exam/scss/_contacts.scss */
+/* line 61, ../Programming/beetroot/js/exam/scss/_contacts.scss */
 #name,
 #email {
   width: 310px;
@@ -1095,20 +1074,20 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 61, ../Programming/js/exam/scss/_contacts.scss */
+  /* line 61, ../Programming/beetroot/js/exam/scss/_contacts.scss */
   #name,
   #email {
     width: 100%;
   }
 }
 
-/* line 75, ../Programming/js/exam/scss/_contacts.scss */
+/* line 75, ../Programming/beetroot/js/exam/scss/_contacts.scss */
 #name::placeholder,
 #email::placeholder {
   opacity: 0.5;
 }
 
-/* line 79, ../Programming/js/exam/scss/_contacts.scss */
+/* line 79, ../Programming/beetroot/js/exam/scss/_contacts.scss */
 #submit {
   font-size: 14px;
   font-family: "GothamBook";
@@ -1122,25 +1101,25 @@ p {
   align-self: flex-end;
 }
 
-/* line 91, ../Programming/js/exam/scss/_contacts.scss */
+/* line 91, ../Programming/beetroot/js/exam/scss/_contacts.scss */
 #submit:hover, #submit:focus {
   background-color: #2c4058;
   color: white;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 99, ../Programming/js/exam/scss/_contacts.scss */
+  /* line 99, ../Programming/beetroot/js/exam/scss/_contacts.scss */
   .contact-form {
     display: block;
     flex-direction: column;
   }
-  /* line 103, ../Programming/js/exam/scss/_contacts.scss */
+  /* line 103, ../Programming/beetroot/js/exam/scss/_contacts.scss */
   #submit {
     align-self: start !important;
   }
 }
 
-/* line 1, ../Programming/js/exam/scss/_footer.scss */
+/* line 1, ../Programming/beetroot/js/exam/scss/_footer.scss */
 .footer {
   background-image: url(../images/footer/bg.png);
   background-size: cover;
@@ -1148,7 +1127,7 @@ p {
   padding: 200px 0;
 }
 
-/* line 6, ../Programming/js/exam/scss/_footer.scss */
+/* line 6, ../Programming/beetroot/js/exam/scss/_footer.scss */
 .footer-nav {
   display: flex;
   justify-content: space-between;
@@ -1157,18 +1136,18 @@ p {
   align-items: center;
 }
 
-/* line 12, ../Programming/js/exam/scss/_footer.scss */
+/* line 12, ../Programming/beetroot/js/exam/scss/_footer.scss */
 .footer-nav__icons {
   margin: 0;
 }
 
-/* line 16, ../Programming/js/exam/scss/_footer.scss */
+/* line 16, ../Programming/beetroot/js/exam/scss/_footer.scss */
 .footer-block {
   max-width: 770px;
   margin: 40px auto 0 auto;
 }
 
-/* line 19, ../Programming/js/exam/scss/_footer.scss */
+/* line 19, ../Programming/beetroot/js/exam/scss/_footer.scss */
 .footer-block__item {
   display: inline-block;
   color: white;
@@ -1176,18 +1155,18 @@ p {
   font-family: "GothamBook";
 }
 
-/* line 24, ../Programming/js/exam/scss/_footer.scss */
+/* line 24, ../Programming/beetroot/js/exam/scss/_footer.scss */
 .footer-block__item--space {
   margin: 0 20px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 31, ../Programming/js/exam/scss/_footer.scss */
+  /* line 31, ../Programming/beetroot/js/exam/scss/_footer.scss */
   .footer {
     padding: 20px;
     margin: auto;
   }
-  /* line 34, ../Programming/js/exam/scss/_footer.scss */
+  /* line 34, ../Programming/beetroot/js/exam/scss/_footer.scss */
   .footer-nav__logo {
     margin: 0 auto;
   }
