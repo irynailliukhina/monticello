@@ -1034,7 +1034,7 @@ p {
 /* line 37, ../Programming/beetroot/js/exam/scss/_contacts.scss */
 .contact-wrapper {
   position: absolute;
-  background-image: url(/images/contact/bg.png);
+  background-image: url(../images/contact/bg.png);
   background-size: cover;
   bottom: -150px;
   left: 50%;
